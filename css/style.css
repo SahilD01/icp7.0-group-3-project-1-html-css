@@ -1,0 +1,153 @@
+*{
+    margin: o;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+}
+.navbar{
+    max-width: 1400px;
+    background-color:#330d00;
+    height: 75px;
+    margin: auto;
+    /*position: sticky;
+    top:0px; */
+}
+.icon{
+    width:200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 28px;
+    font-family: Arial;
+    padding-left: 15px;
+    float: left;
+    padding-top: 5px;
+    margin-left: 15px;
+    padding-bottom: none;
+}
+.logo span{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top:2ps;
+    padding-bottom: 10px;
+    display: flex;
+    
+   
+}
+.menu{
+    width: 300px;
+    float: left;
+    height:70px;
+   
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ }
+ ul li{
+    list-style: none;
+    margin-left:30px;
+    margin-top: 27px;
+    font-size: 17px;
+ }
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+ .search{
+    width: 330px;
+    float: left;
+    margin-left: 500px;
+ }
+
+ .srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:black;
+    border-right: 2px;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+
+ }
+ .btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+  .btn:focus{
+    outline: none;
+  }
+
+  .srch:focus{
+    outline: none;
+  }
+
+ /* footer section start */
+ .footer {
+    background-color:black;
+    margin-top: 30px;
+    padding: 10px 0;
+
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+.footer-sections {
+    width: 200px;
+    color:#ff7200;
+    background-color: transparent;
+}
+
+.section-title {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-links {
+    text-decoration: none;
+    color: wh;
+}
+
+.section-links {
+    margin-left: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-links {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
