@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f2f4;
+}
+
+.colors {
+    color: #3db6bc;
+    color: #054b4e;
+    color: black;
+    color: white;
+
+}
+.images{
+    height:100px;
+    width: 200px;
+}
+
+.nav-bar {
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+}
+
+.shop-logo {
+    height: 100px;
+ width: 100px;
+    margin: 5px;
+}
+.write{
+    color:white;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: transparent;
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-options-div {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin: 0 10px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-options-div:hover {
+    background-color: transparent;
+    color: white;
+}
+.special-option {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.nav-options {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(238, 13, 13);
+    margin: 0 10px;
+    padding: 5px;
+}
+.img{
+    height: 700px;
+    width:2800px ;
+    padding: 10px;
+}
+
+.more-options {
+    position: relative;
+}
+.more-options-list {
+    visibility: hidden ;
+    position: absolute;
+    background-color: #3db6bc;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    list-style: none;
+    border-radius: 10px;
+}
+.more-options:hover > .more-options-list{
+    visibility:visible;
+}
+.list-anchors{
+    text-decoration: none;
+    color:black;
+}
+.list-anchors:hover{
+    color: white;
+}
+
+
+/* combination of selectors*/
+.nav-options-div:hover>.nav-options {
+    color: white;
+}
+
+.footer {
+    background-color: #033a3d;
+    margin-top: 500px;
+    padding: 10px 0;
+
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+.footer-sections {
+    width: 200px;
+    color: white;
+    background-color: transparent;
+}
+
+.section-title {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-links {
+    text-decoration: none;
+    color: white;
+}
+
+.section-links {
+    margin-left: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-links {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
