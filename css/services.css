@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body{
+    background: brown !important;
+}
+.h1{
+    text-align: center;
+    margin: 50px auto 120px !important;
+    color: #fff
+}
+.main{
+    width: 100% ;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.services{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.services-logo{
+   width: 130px;
+   height: 130px; 
+   border-radius: 50px;
+   margin: -90px auto 0;
+   background: #fff;
+   border: 18px solid #007bff;
+}
+.services-logo img{
+    width: 50px;
+    margin-top: 20px;
+}
+.services h4{
+    height: 35px;
+    width: 80px;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+}
+.services h4::after{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #fff,#007bff);
+    position: absolute;
+    right: -5px;
+    top:-5px;
+}
