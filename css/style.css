@@ -113,37 +113,39 @@ ul li a:hover{
     background-color:black;
     margin-top: 30px;
     padding: 10px 0;
-
+    max-width: 1400px;
 }
 
 .sections-container {
     display: flex;
     justify-content: space-between;
     margin: 20px 80px;
+   
 }
 
 .footer-sections {
     width: 200px;
-    color:#ff7200;
     background-color: transparent;
+    
 }
 
 .section-title {
-    font-size: 20px;
+    font-size: 21px; 
+    color:#ff7200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-links {
     text-decoration: none;
-    color: wh;
+    color: white;
 }
 
 .section-links {
     margin-left: 15px;
-    color: white;
+    color:white;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  
 }
 
 .about-links {
