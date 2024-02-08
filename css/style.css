@@ -1,5 +1,5 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
 
 }
@@ -18,6 +18,7 @@ body{
     width:200px;
     float: left;
     height: 70px;
+    
 }
 .logo{
     color: #ff7200;
@@ -28,6 +29,7 @@ body{
     padding-top: 5px;
     margin-left: 15px;
     padding-bottom: none;
+    
 }
 .logo span{
     color: white;
@@ -43,7 +45,7 @@ body{
     width: 300px;
     float: left;
     height:70px;
-   
+    margin: 0;
 }
 ul{
     float:left;
@@ -54,7 +56,7 @@ ul{
  ul li{
     list-style: none;
     margin-left:30px;
-    margin-top: 27px;
+    margin-top: 25px;
     font-size: 17px;
  }
 ul li a{
@@ -95,57 +97,60 @@ ul li a:hover{
     background: #ff7200;
     border: 2px solid #ff7200;
     margin-top: 13px;
+    margin-left: 10px;
     color: black;
     font-size: 15px;
+    border-radius: 7px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius:5px;
  }
-  .btn:focus{
-    outline: none;
-  }
-
-  .srch:focus{
-    outline: none;
-  }
+ .btn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.btn:hover{
+    background-color:white ;
+    border: none;
+    box-shadow: 3px 3px 0  2px black;
+}
 
  /* footer section start */
  .footer {
     background-color:black;
     margin-top: 30px;
-    padding: 10px 0;
-    max-width: 1400px;
+    padding: 10px 0px;
+
 }
 
 .sections-container {
     display: flex;
     justify-content: space-between;
     margin: 20px 80px;
-   
 }
 
 .footer-sections {
     width: 200px;
+    color:#ff7200;
     background-color: transparent;
-    
 }
 
 .section-title {
-    font-size: 21px; 
-    color:#ff7200;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-links {
     text-decoration: none;
-    color: white;
+    color: wh;
 }
 
 .section-links {
     margin-left: 15px;
-    color:white;
+    color: white;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+
 }
 
 .about-links {
