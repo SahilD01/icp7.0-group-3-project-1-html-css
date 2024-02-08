@@ -6,13 +6,13 @@
 }
 .hero{
     background-color: #f8f8f8;
-    overflow: hidden;
+    
 }
 .heading h1{
     color: #330d00;
     font-size: 55px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 5px;
 
 }
 .container{
@@ -31,7 +31,7 @@
 
 }
 .hero-content h2{
-    font-size: 38px;
+    font-size: 35px;
     margin-bottom: 20px;
     color: black;
 }
@@ -185,5 +185,62 @@ img{
     transition: 0.3s;
 }
 
+/* Default styles */
+/* Add your default CSS styles here */
+
+/* Responsive styles for tablets (landscape) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust font sizes, margins, paddings, etc. for tablets (landscape) */
+    .heading h1 {
+        font-size: 2.5em;
+    }
+    .hero-content {
+        padding: 20px;
+    }
+    .hero-image img {
+        width: 70%;
+    }
+    .hero-image img {
+        max-width: 100%;
+        height: auto;}
+        
+}
+
+/* Responsive styles for tablets (portrait) */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Adjust font sizes, margins, paddings, etc. for tablets (portrait) */
+    .heading h1 {
+        font-size: 2em;
+    }
+    .hero-content {
+        padding: 15px;
+    }
+    .hero-image img {
+        width: 50%;
+    }
+    .hero-image img {
+        max-width: 100%;
+        height: auto;}
+        
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust font sizes, margins, paddings, etc. for mobile devices */
+    .heading h1 {
+        font-size: 1.5em;
+    }
+    .hero-content {
+        padding: 10px;
+    }
+    .hero-image img {
+        width: 100%;
+    }
+    .footer-sections {
+        width: 100%;
+        text-align: center;
+    }
+   
+}
 
 
