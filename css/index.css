@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0px;
     padding: 0px;
@@ -149,3 +150,60 @@ body {
     text-decoration: none;
     color: white;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/bg2.avif);
+    background-position: center;
+    background-size: cover;
+    background-position: 80%;
+    height: 109vh;
+    }
+    .content{
+        padding-top: 190px;
+        margin-left: 56px;
+        }
+        .content h3{
+        font-size: 45px;
+        color: white;
+        }
+        .content p{
+        color: white;
+        font-family: Arial;
+        line-height: 15px;
+        padding-left: 5px;
+        letter-spacing: 1.2px;
+        padding-bottom: 2px;
+        }
+        span{
+            color: #ff7200;
+        }
+        .btn{
+            width: 160px;
+            height:30px;
+            background: #ff7200;
+            border: none;
+            margin-bottom: 5px;
+            margin-left: 10px;
+            font-size: 20px;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: .4s ease;
+            
+        }
+        .btn a{
+            text-decoration: none;
+            color: black;
+            transition: .3s ease;
+        }
+        .btn:hover{
+            background-color:white ;
+            border: none;
+            box-shadow: 3px 3px 0  2px black;
+        }
+>>>>>>> 77c4e89dd6e5c61d5f805e24f0b0fa7bdfed60ec
