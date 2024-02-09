@@ -7,10 +7,12 @@ body{
     background-color: white;
 }
 .navbar{
-    max-width: 1400px;
+    
     background-color:#330d00;
     height: 75px;
     margin: auto;
+    width: 100%;
+    
     /*position: sticky;
     top:0px; */
 }

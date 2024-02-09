@@ -1,56 +1,53 @@
-*{
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    background-color: #f7f7f7;
+    color: #993600;
 }
-.body{
-    background: brown !important;
-}
-.h1{
+
+header {
+    background-color: #993600;
+    color: #fff;
     text-align: center;
-    margin: 50px auto 120px !important;
-    color: #fff
+    padding: 1em 0;
 }
-.main{
-    width: 100% ;
-    min-height: 380px;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.services{
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    
 }
-.services-logo{
-   width: 130px;
-   height: 130px; 
-   border-radius: 50px;
-   margin: -90px auto 0;
-   background: #fff;
-   border: 18px solid #007bff;
+
+.card h3 {
+    color: #2c3e50;
 }
-.services-logo img{
-    width: 50px;
-    margin-top: 20px;
+
+.card p {
+    line-height: 1.6;
 }
-.services h4{
-    height: 35px;
-    width: 80px;
-    background: #fff;
-    margin: 50px auto;
-    position: relative;
+
+.icon {
+    color: #e74c3c;
+    margin-right: 5px;
 }
-.services h4::after{
-    content: '';
-    width: 40px;
-    height: 30px;
-    background: linear-gradient(to right, #fff,#007bff);
-    position: absolute;
-    right: -5px;
-    top:-5px;
+.img{
+  height: 150px;
+  width: 185px;
+  margin-left: 50px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px;
+
 }
