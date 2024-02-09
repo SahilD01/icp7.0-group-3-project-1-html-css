@@ -150,6 +150,10 @@ img{
     margin: 10px 20px;
     transition: 0.3s;
 }
+.sections-container{
+    width: 1330px;
+}
+
 
 /* Default styles */
 /* Add your default CSS styles here */
@@ -171,6 +175,7 @@ img{
         height: auto;}
         
 }
+
 
 /* Responsive styles for tablets (portrait) */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
