@@ -110,7 +110,7 @@ ul li a:hover{
     transition: .3s ease;
 }
 .btn:hover{
-    background-color:white ;
+    background-color:#ff7200;
     border: none;
     box-shadow: 3px 3px 0  2px black;
 }
@@ -138,11 +138,12 @@ ul li a:hover{
 .section-title {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 
 .about-links {
     text-decoration: none;
-    color: wh;
+    color: white;
 }
 
 .section-links {
