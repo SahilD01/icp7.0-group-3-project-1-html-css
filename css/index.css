@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 *{
     margin: 0;
     padding: 0;
@@ -57,11 +57,14 @@
           padding-right: 70px;
       }
       .card img:hover{
-          transform: scale(1.15);
+          transform: scale(1.10);
+          height: 200px;
+          width: 350px;
       }
       .card h2{cursor:pointer;
           transition: 0.1s ease;
           padding-right: 50px ;
+          padding-top: 7px;
       }
       .card h2:hover{
           transform: scale(1.15);
@@ -70,14 +73,14 @@
         color: black;
         font-size: 20px;
         padding-right: 50px;
+        padding-top: 7px;
 
       }
       .b{
         padding-right: 50px;
-        
+         padding-top: 10px;
       }
       
        
       
       /* product section end */
->>>>>>> cc96e20720cc855e719d95179f105ce95b1f94bd
