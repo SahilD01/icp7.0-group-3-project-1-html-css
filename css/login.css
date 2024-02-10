@@ -178,8 +178,9 @@ label {
 @media screen and(min-width:768px) and(max-width:1024px) and (orientation:portrait){
     /*Adjust font sizes,margin,paddings,etc.for tablets(portrait)*/
     .container{
-width:50%;
+        width:50%;
     }
+    
     .form button{
         font-size:2em;
     }
@@ -187,6 +188,22 @@ width:50%;
         border-radius:3px;
     }
 }
+/* Responsive style for mobile devices */
+@media screen and(max-width:767px){
+    /*Adjust font sizes,margins,paddings etc.for mobile devices */
+    .container{
+        width:30%;
+    }
+    .form button{
+        font-size:5em;
+    }
+    .input{
+        border-radius: 10px;
+    }
+    .footer{
+        padding:20px;
+    }
+    }
 
 
 
