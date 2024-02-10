@@ -29,7 +29,7 @@ body {
     width: 400px;
     overflow: hidden;
     border-radius: 12px;
-    box-shadow: rgba(130, 0, 0, 0.442) 0px 30px 90px;
+    box-shadow: hsla(27, 89%, 48%, 0.442) 0px 30px 90px;
 }
 
 .form {
