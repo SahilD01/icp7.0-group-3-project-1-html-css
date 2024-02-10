@@ -29,10 +29,10 @@
 }
 
 .container h2{
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    color: #000000;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 40px;
+    color: #330d00;
 }
 
 .contact-wrapper{
@@ -73,7 +73,7 @@ textarea:focus{
     height: 40px;
     background: #ff7200;
     border: none;
-    margin-top: 13px;
+    margin-top: 5px;
     margin-left: 5px;
     margin-bottom: 7px;
     color: black;
