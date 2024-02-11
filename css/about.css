@@ -43,21 +43,21 @@
 
 }
 .hero-content button{
-    width: 120px;
+    width: 130px;
     height:30px;
     background: #ff7200;
     border: none;
     margin-bottom: 5px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 7px;
     cursor: pointer;
     transition: .4s ease;
 }
 .hero-content button:hover{
-    background-color:white ;
-            border: none;
-            box-shadow: 3px 3px 0  2px black;
+    background-color:#ff7200;
+    border: none;
+    box-shadow: 3px 3px 0  2px black;
 }
 
 
@@ -113,6 +113,9 @@ img{
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
+}
+span{
+    color: #ff7200;
 }
 
 .card-container {
@@ -199,7 +202,7 @@ img{
 @media screen and (max-width: 767px) {
     /* Adjust font sizes, margins, paddings, etc. for mobile devices */
     .heading h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .hero-content {
         padding: 10px;
@@ -213,7 +216,5 @@ img{
     }
    
 }
-
-
 
 
