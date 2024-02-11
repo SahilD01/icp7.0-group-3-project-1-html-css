@@ -44,6 +44,8 @@
          padding-top: 20px;
          height: 350px;
          position: static;
+         box-shadow: 0 5px 7px 2px #adad85;
+         border-radius: 14px;
         
       }
       .card img{
@@ -53,9 +55,12 @@
           width: 350px;
           align-items: center;
           padding-right: 70px;
+          
       }
       .card img:hover{
           transform: scale(1.10);
+          height: 190px;
+          width: 290px;
       }
       .card h2{cursor:pointer;
           transition: 0.1s ease;
