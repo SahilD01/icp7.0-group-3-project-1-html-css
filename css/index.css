@@ -33,6 +33,13 @@
         /* home section end */
 
     /* product section start */
+    .heading h1{
+        color: #330d00;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 5px;
+    
+    }
      .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 350px;
@@ -49,6 +56,7 @@
         
       }
       .card img{
+        flex: 1;
           cursor:pointer;
           transition: 0.1s ease;
           height: 200px;
