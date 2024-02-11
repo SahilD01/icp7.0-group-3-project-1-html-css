@@ -22,7 +22,7 @@
     background-position: 100%;
     background-size: cover; 
     background-attachment: fixed;
-    height: 100vh;
+    height: 109vh;
     background-repeat: no-repeat;
 }
 
@@ -30,7 +30,7 @@
     text-align: center;
     font-size: 55px;
     margin-bottom: 50px;
-    color: #330d00;
+    color: #fae8e8;
 }
 
 .contact-wrapper{
@@ -52,6 +52,7 @@
 .form-group{
     margin-bottom: 20px;
 }
+
 input, textarea{
     width: 80%;
     padding: 12px;
@@ -59,6 +60,7 @@ input, textarea{
     border: none;
     background-color: #fae8e8;
 }
+
 input:focus,
 textarea:focus{
     outline: none;
@@ -68,32 +70,32 @@ textarea:focus{
 .btn{
     width: 100px;
     height: 40px;
-    background:  #ff7200;
-    border: none;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 7px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    margin-left: 10px;
     color: black;
     font-size: 15px;
+    border-radius: 7px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius:5px;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: .4s ease;
- }
- .btn a{
+}
+
+.btn a{
     text-decoration: none;
     color: black;
     transition: .3s ease;
 }
+
 .btn:hover{
     background-color: #ff7200;
     border: none;
     box-shadow: 3px 3px 0  2px black;
 }
-  .btn:focus{
+
+.btn:focus{
     outline: none;
- }
+}
 
 .contact-info{
     text-align: left;
@@ -102,17 +104,20 @@ textarea:focus{
 .contact-info h3{
     font-size: 24px;
     margin-bottom: 20px;
-    color: #1b1917;
+    margin-right: 50px;
+    color: #fdf9f4;
 }
    
 .contact-info p{
     margin-bottom: 10px;
-    color: #1b1917;
+    color: #fdf9f4;
 }
+
 .contact-info i{
     color: #429945;
     margin-right: 10px;
 }
+
 @media screen and (max-width: 768px){
     .container{
         padding: 20px;
