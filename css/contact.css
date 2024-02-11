@@ -17,21 +17,20 @@
 .container{
     max-width: 100%;
     margin: 0 auto;
-    width: 100%;
+    width: 100%;   
     background-image: url(../images/background.jpg);
-    background-position: center;
+    background-position: 100%;
     background-size: cover; 
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 109vh;
     background-repeat: no-repeat;
 }
 
 .container h2{
     text-align: center;
-    font-size: 55px;
-    margin-bottom: 50px;
-    color: #330d00;
+    font-size: 50px;
+    margin-bottom: 45px;
+    color: #fae8e8;
 }
 
 .contact-wrapper{
@@ -53,6 +52,7 @@
 .form-group{
     margin-bottom: 20px;
 }
+
 input, textarea{
     width: 80%;
     padding: 12px;
@@ -60,6 +60,7 @@ input, textarea{
     border: none;
     background-color: #fae8e8;
 }
+
 input:focus,
 textarea:focus{
     outline: none;
@@ -70,31 +71,31 @@ textarea:focus{
     width: 100px;
     height: 40px;
     background: #ff7200;
-    border: none;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 7px;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    margin-left: 10px;
     color: black;
     font-size: 15px;
+    border-radius: 7px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius:5px;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: .4s ease;
- }
- .btn a{
+}
+
+.btn a{
     text-decoration: none;
     color: black;
     transition: .3s ease;
 }
+
 .btn:hover{
-    background-color:#ff1a1a ;
+    background-color: #ff7200;
     border: none;
     box-shadow: 3px 3px 0  2px black;
 }
-  .btn:focus{
+
+.btn:focus{
     outline: none;
- }
+}
 
 .contact-info{
     text-align: left;
@@ -103,17 +104,20 @@ textarea:focus{
 .contact-info h3{
     font-size: 24px;
     margin-bottom: 20px;
-    color: #070606;
+    margin-right: 50px;
+    color: #fdf9f4;
 }
    
 .contact-info p{
     margin-bottom: 10px;
-    color: #181515;
+    color: #fdf9f4;
 }
+
 .contact-info i{
     color: #429945;
     margin-right: 10px;
 }
+
 @media screen and (max-width: 768px){
     .container{
         padding: 20px;
