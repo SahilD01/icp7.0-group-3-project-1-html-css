@@ -22,14 +22,14 @@
     background-position: 100%;
     background-size: cover; 
     background-attachment: fixed;
-    height: 100vh;
+    height: 109vh;
     background-repeat: no-repeat;
 }
 
 .container h2{
     text-align: center;
-    font-size: 45px;
-    margin-bottom: 40px;
+    font-size: 50px;
+    margin-bottom: 45px;
     color: #fae8e8;
 }
 
