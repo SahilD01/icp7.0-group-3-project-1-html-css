@@ -114,6 +114,9 @@ img{
     font-size: 30px;
     font-weight: bolder;
 }
+span{
+    color: #ff7200;
+}
 
 .card-container {
     background-color: #eee;
@@ -199,7 +202,7 @@ img{
 @media screen and (max-width: 767px) {
     /* Adjust font sizes, margins, paddings, etc. for mobile devices */
     .heading h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .hero-content {
         padding: 10px;
@@ -213,7 +216,5 @@ img{
     }
    
 }
-
-
 
 
