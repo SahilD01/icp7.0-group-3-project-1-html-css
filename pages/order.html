@@ -1,11 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>order</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Page</title>
+<style>
+   body{
+            width: 100%;
+            background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://images.healthshots.com/healthshots/en/uploads/2023/10/14150447/coffee-3.jpg) ;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: 100%;
+           
+            margin: 0;
+            padding: 0;
+        }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    h1 {
+        text-align: center;
+    }
+    label {
+        font-weight: bold;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
 </head>
 <body>
-    <h1>Order Page</h1>
-    </body>
+<div class="container">
+    <h1>Order Your Coffee</h1>
+    <form action="order_processing_page.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="mobile">Mobile No.:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+        <label for="coffee">Coffee Type:</label>
+        <select id="coffee" name="coffee" required>
+            <option value="NONE">NONE</option>
+            <option value="Hot Coffee">Hot Coffee</option>
+            <option value="Cappuccino">Cappuccinoe</option>
+            <option value="Fresh Cold Coffee">Fresh Cold Coffee</option>
+            <option value="ICED COFFEE">ICED COFFEE</option>
+            <option value="FRONZE COFFEE">FRONZE COFFEE</option>
+            <option value="VALINA COFFEE">VALINA COFFEE</option>
+            <option value="CHOCOLATE COFFEEo">CHOCOLATE COFFEE</option>
+            <option value="NTRO COFFEEo">NTRO COFFEE</option>
+            <option value="BLACK COFFEE">BLACK COFFEE</option>
+            <option value="FLAT WHITE COFFEE">FLAT WHITE COFFEE</option>
+            <option value="MOCHA COFFEE">MOCHA COFFEE</option>
+            <option value="SMOOTHIS COFFEE">SMOOTHIS COFFEE</option>
+            <option value="FRAPPUCCINO COFFEE">FRAPPUCCINO COFFEE</option>
+            <option value="CAPPUCCINO">CAPPUCCINO</option>
+            <option value="EXPRESSO">EXPRESSO</option>
+        
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" readonly>
+
+        <label for="payment">Payment Type:</label>
+        <select id="payment" name="payment" required>
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="cash">Cash on Delivery</option>
+        </select>
+
+        <input type="submit" value="Place Order"> <a url:"./../"
+    </form>
+</div>
+<script>
+    // Calculate price based on coffee type and quantity
+    document.getElementById('coffee').addEventListener('change', function() {
+        calculatePrice();
+    });
+    document.getElementById('quantity').addEventListener('input', function() {
+        calculatePrice();
+    });
+
+    function calculatePrice() {
+        const coffeeType = document.getElementById('coffee').value;
+        const quantity = document.getElementById('quantity').value;
+        let price = 0;
+
+        // Calculate price based on coffee type
+        switch(coffeeType) {
+            case 'Hot Coffee':
+                price =  100;
+                break;
+            case 'Cappuccino':
+                price = 100;
+                break;
+            case 'Fresh Cold Coffee':
+                price = 100;
+                break;
+            case 'ICED COFFEE':
+                price =100;
+                break
+                case 'FRONZE COFFEE':
+                price = 90;
+                break;
+                case 'VALINA COFFEE':
+                price = 100;
+                break;
+                case 'CHOCOLATE COFFEE':
+                price = 150;
+                break;
+        
+                case 'NTRO COFFEE':
+                price = 110;
+                break;
+        
+                case 'BLACK COFFEE':
+                price = 100;
+                break;
+                case 'FLAT WHITE COFFEE':
+                price = 110;
+                break;
+                case 'MOCHA COFFEE':
+                price = 130;
+                break;
+                case 'SMOOTHIS COFFEE':
+                price = 100;
+                break;
+                case 'FRAPPUCCINO COFFEE':
+                price = 150;
+                break;
+                case 'CAPPUCCINO':
+                price = 150;
+                break;
+                case 'EXPRESSO':
+                price = 200;
+                break;
+        
+        
+        
+        }
+
+        // Calculate total price
+        price *= quantity;
+
+        // Update price input field
+        document.getElementById('price').value = price.toFixed(2);
+    }
+</script>
+</body>
 </html>
