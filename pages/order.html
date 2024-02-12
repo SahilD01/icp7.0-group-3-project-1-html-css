@@ -4,13 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Order Page</title>
+<link rel="stylesheet" href="./../css/style.css"/>
 <style>
    body{
             width: 100%;
-            background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://images.healthshots.com/healthshots/en/uploads/2023/10/14150447/coffee-3.jpg) ;
+            background-image: url(./../images/order_page_image\ .jpg) ;
             background-attachment: fixed;
             background-size: cover;
             background-position: 100%;
+           
            
             margin: 0;
             padding: 0;
@@ -18,15 +20,19 @@
     .container {
         max-width: 600px;
         margin: 20px auto;
-        background-color: #fff;
+        background-color: #f05826bd;
         padding: 20px;
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-size: cover;
         
     }
     h1 {
-        text-align: center;
+        text-align: center  ; 
+       
+       
     }
+    
     label {
         font-weight: bold;
     }
@@ -35,34 +41,59 @@
         padding: 10px;
         margin: 8px 0;
         border: 1px solid #ccc;
-        border-radius: 4px;
+        border-radius: 7px;
         box-sizing: border-box;
     }
     input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #ff7200;
         color: white;
         cursor: pointer;
     }
     input[type="submit"]:hover {
-        background-color: #45a049;
+        background-color: black;
     }
 </style>
 </head>
 <body>
+    <!-- header section start -->
+    <div class="main">
+        <div class="navbar">
+           <div class="icon">
+            <h2 class="logo">Golden<br><span>Coffee Shop</span></h2>
+            </div>
+             <div class="menu">
+                <ul>
+                    <li><a href="./../index.html">HOME</a></li>
+                    <li><a href="./../pages/about.html">ABOUT</a></li>
+                    <li><a href="./../pages/product.html">PRODUCT</a></li>
+                    <li><a href="./../pages/contact.html">CONTACT</a></li>
+                    <li><a href="./../pages/services.html">SERVICES</a></li>
+                    <li><a href="./../pages/review.html">REVIEW</a></li>
+                    <li><a href="./../pages/login.html">LOGIN</a></li>
+                    <img src="./img/hamburger-menu.png" class="hamburger-menu"/>
+                </ul> 
+            </div>
+            <div class="search">
+               <input class="srch" type="search" name="" placeholder="Search">
+                <a href="#"><button class="btn">Search</button></a>
+             </div>
+
+        </div>
+        <!-- headter section end -->
 <div class="container">
     <h1>Order Your Coffee</h1>
     <form action="order_processing_page.php" method="POST">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name"  placeholder="Enter Your Name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email"  placeholder="Enter Your Name" required>
 
         <label for="address">Address:</label>
-        <input type="text" id="address" name="address" required>
+        <input type="text" id="address" name="address"  placeholder="Enter Your Address" required>
 
         <label for="mobile">Mobile No.:</label>
-        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}"   placeholder="Enter Your Mobile No "required>
 
         <label for="coffee">Coffee Type:</label>
         <select id="coffee" name="coffee" required>
@@ -99,7 +130,7 @@
             <option value="cash">Cash on Delivery</option>
         </select>
 
-        <input type="submit" value="Place Order"> <a url:"./../"
+        <input type="submit" value="Place Order"> 
     </form>
 </div>
 <script>
@@ -175,7 +206,58 @@
 
         // Update price input field
         document.getElementById('price').value = price.toFixed(2);
+        
     }
 </script>
+<div>
+    <footer class="footer">
+        <div class="sections-container">
+
+            <div class="footer-sections ">
+                <p class="section-title">Quick links:</p><br>
+                <div class="section-links">
+                    <h4><p><a href="About" class="about-links">About</a></p><br>
+                    <p><a href="Contact" class="about-links" >Contact</a></p><br>
+                    <p><a href="services" class="about-links">Services</a></p><br>
+                    <p><a href="Review" class="about-links">Review</a></p><br></h4>
+                </div> 
+            </div>
+    
+            <div class="footer-sections">
+                <p class="section-title">Supports:</p><br>
+                <div class="section-links">
+                    <h3><p>Payment</p><br>
+                    <p>Security</p><br>
+                    <p>FAQ</p><br>
+                    <p>Privacy Police</p><br></h3>
+                </div>
+            </div>
+            <div class="footer-sections">
+                <p class="section-title">Social:</p><br>
+                <div class="section-links">
+                    <h3><p><p><i class="fa-brands fa-youtube"></i>  &nbsp; YouTube</p><br>
+                        <p><i class="fa-solid fa-envelope"></i> &nbsp; Mail Us</p><br>
+                        <p><i class="fa-solid fa-phone"></i> &nbsp; Call Us</p><br>
+                    <p><i class="fa-brands fa-instagram"></i> &nbsp; Instagram</p><br></h3>
+                </div>
+            </div>
+            <div class="footer-sections">
+                <p><a href="contact.html"class="section-title">Contact Us: </a></p><br>
+                <div class="section-links">
+                    <h4><p><h2>Golden Coffee shop</h2></a></p><br>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:sakshigore2153@gmail.com" class="about-links">goldencoffeeshop@gamil.com</a></p><br>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:9766559236" class="about-links">Tel: +91623456789</a></p></h4>
+                    
+               </div>
+            </div>   
+    
+           
+        </div>
+
+        <hr/>
+        <p style="text-align: center; color: #ff7200; margin: 0; padding: 0;">Copyright@ Coffee Shop. All Rights Reserved</p>
+
+    </footer></div>
+    <script src="https://kit.fontawesome.com/029a190c6b.js" crossorigin="anonymous"></script>
 </body>
 </html>
