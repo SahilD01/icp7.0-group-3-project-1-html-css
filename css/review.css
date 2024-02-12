@@ -103,7 +103,7 @@
          }
        
         .send:hover{
-            background-color:white ;
+            
             transition: .3s ease;
             border: none;
             box-shadow: 3px 3px 0  2px black;
