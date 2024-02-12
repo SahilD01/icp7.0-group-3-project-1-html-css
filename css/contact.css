@@ -28,9 +28,10 @@
 
 .container h2{
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 45px;
-    color: #fae8e8;
+    padding-top: 15px;
+    font-size: 60px;
+    margin-bottom: 80px;
+    color: #ffffff;
 }
 
 .contact-wrapper{
@@ -46,6 +47,7 @@
 .contact-form h3{
     font-size: 24px;
     margin-bottom: 20px;
+    margin-left: 20px;
     color: #ff7200;
 }
 
@@ -55,10 +57,11 @@
 
 input, textarea{
     width: 80%;
-    padding: 12px;
+    padding: 15px;
     border-radius: 8px;
     border: none;
-    background-color: #fae8e8;
+    background-color: #ffffff;
+    margin-left: 20px;
 }
 
 input:focus,
@@ -67,33 +70,25 @@ textarea:focus{
     box-shadow: 0 0 8px #ffffff;
 }
 
-.btn{
+.bttn{
     width: 100px;
     height: 40px;
     background: #ff7200;
     border: 2px solid #ff7200;
-    margin-top: 13px;
-    margin-left: 10px;
-    color: black;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     border-radius: 7px;
     border-bottom-right-radius: 5px;
-    border-bottom-right-radius:5px;
 }
 
-.btn a{
-    text-decoration: none;
-    color: black;
-    transition: .3s ease;
-}
-
-.btn:hover{
-    background-color: #ff7200;
+.bttn:hover{
+    background-color:#ff7200;
     border: none;
-    box-shadow: 3px 3px 0  2px black;
+    box-shadow: 3px 3px 0  2px rgb(255, 255, 255);
 }
 
-.btn:focus{
+.bttn:focus{
     outline: none;
 }
 
@@ -104,13 +99,14 @@ textarea:focus{
 .contact-info h3{
     font-size: 24px;
     margin-bottom: 20px;
-    margin-right: 50px;
-    color: #fdf9f4;
+    margin-right: 20px;
+    color: #ff7200;
 }
    
 .contact-info p{
     margin-bottom: 10px;
-    color: #fdf9f4;
+    margin-right: 310px;
+    color: #ffffff;
 }
 
 .contact-info i{
