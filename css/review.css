@@ -64,16 +64,12 @@
             height: 5px;
             border: none;
         }
-        .rvw{
-            position: relative;
-            text-align: left;
-            padding:0 30% 0 33%;
-            
-            } 
+        
         .post{
             /* padding: 0px 20px; */
             color: white;
             border: none;
+            padding: 10px 30px;
             
         }
         .detail{
@@ -83,24 +79,24 @@
             height: 25px;
             width: 200px;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             margin-bottom: 10px;
         }
         .msg{
-            /* padding: 30px 30px; */
-            margin: 15px 20px 20px 10px;
-            border-radius: 15px;
-            height: 60px;
-            
-
-
-            width: 200px;        }
+            margin-top: 15px;
+            margin-left: 20px;
+            height: 100px;
+            width: 350px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
         .send{
-            width: 70px;
+            width: 200px;
             height: 30px;
             background: #ff7200;
             border: 2px solid #ff7200;
-            margin: 10px 10px;
+            margin: 10px 165px;
             color: black;
             font-size: 15px;
             border-radius: 7px;
@@ -113,21 +109,22 @@
             box-shadow: 3px 3px 0  2px black;
         }
 
-        @media screen and (max-width: 808px)
-        {
-              
-            .msg{
-                margin: 10px 20px;
-            }
-            .send{
-                margin-left: 40px;
-            }
-           
-        }
-        @media screen and (min-width: 764px) {
+       
+        @media screen and (max-width: 764px) {
             .rvw{
                 margin: 10px 20px;
+                display:flex ;
+                flex-direction: column;
+            }
+            .send{
+                margin: 10px 110px;
             }
             
+        }
+        .rvw {
+            background-color:#a97653;
+        
+        border-radius: 15px;
+       
         }
        
