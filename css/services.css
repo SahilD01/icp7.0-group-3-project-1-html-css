@@ -79,16 +79,21 @@
          .card {
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          
             margin: 10px;
             padding: 20px;
+            height: 370px;
             width: 300px; 
             display: inline-block;
+            box-shadow:  1px 1px 2px 2px black;
                        
         }
         .card:hover{
-            transform: scale(1.15);
-        }
+            box-shadow: 1px 1px 2px 2px gray;
+            transform: scale(1.06);
+            transition: 0.3s;
+          }
+          
 
         .card h3 {
             color: #2c3e50;
@@ -112,12 +117,6 @@
             margin: 10px;
             padding: 30px;
             border-radius: 3px;
-            box-shadow: 1px 1px 1px 1px;
+            box-shadow:  1px 1px 1px 1px;
         }
-        .icon1{
-            margin-left: 90px;
-            margin-bottom: 90px;
-            height: 390px;
-        }
-    
-       
+        
