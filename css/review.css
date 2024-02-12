@@ -66,35 +66,41 @@
         }
         .rvw{
             position: relative;
-            left: 450px;
-            width: 100%;
-        } 
+            text-align: left;
+            padding:0 30% 0 33%;
+            
+            } 
         .post{
-            padding: 0px 20px;
+            /* padding: 0px 20px; */
             color: white;
             border: none;
-           
+            
         }
         .detail{
-            padding: 5px 30px;
-            margin-top: 13px;
+            /* padding: 5px 30px; */
+            margin-top: 15px;
             margin-left: 27px;
-            
-
+            height: 25px;
+            width: 200px;
             border: none;
             border-radius: 5px;
+            margin-bottom: 10px;
         }
         .msg{
-            padding: 30px 30px;
-            margin: 0px 10px;
-            border-radius: 5px;
-        }
+            /* padding: 30px 30px; */
+            margin: 15px 20px 20px 10px;
+            border-radius: 15px;
+            height: 60px;
+            
+
+
+            width: 200px;        }
         .send{
             width: 70px;
             height: 30px;
             background: #ff7200;
             border: 2px solid #ff7200;
-            margin: 50px 10px;
+            margin: 10px 10px;
             color: black;
             font-size: 15px;
             border-radius: 7px;
@@ -106,63 +112,22 @@
             border: none;
             box-shadow: 3px 3px 0  2px black;
         }
-                     
- /* footer section start */
- .footer {
-    width: 100%;
-    background-color:black;
-    margin-top: 30px;
-    padding: 10px 0px;
-    position: absolute;
-    top: 1000px;
 
-}
-
-.sections-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 80px;
-}
-
-.footer-sections {
-    width: 200px;
-    color:#ff7200;
-    background-color: transparent;
-}
-
-.section-title {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-.about-links {
-    text-decoration: none;
-    color: wh;
-}
-
-.section-links {
-    margin-left: 15px;
-    color: white;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-
-}
-.links{
-    padding-bottom: 5px;
-}
-.supports{
-    padding-bottom: 5px;
-}
-
-.about-links {
-    font-size: 17px;
-    text-decoration: none;
-    color: white;
-   
-}
-.main-div{
-    display: flex;
-    
-}
+        @media screen and (max-width: 808px)
+        {
+              
+            .msg{
+                margin: 10px 20px;
+            }
+            .send{
+                margin-left: 40px;
+            }
+           
+        }
+        @media screen and (min-width: 764px) {
+            .rvw{
+                margin: 10px 20px;
+            }
+            
+        }
+       
